@@ -1,0 +1,71 @@
+@import "https://fonts.google.com/specimen/Archivo";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --colorBlack01:rgba(0,0,0,0.7);
+  --colorBlack:rgba(0,0,0,1);
+  --color01:rgba(216,213,135,0.2);
+  --color02:rgba(216,213,135,0.1);
+  --colorGray:rgba(142,142,142,0.1);
+  --margin: 1rem;
+}
+
+.container{
+  margin: 2rem 1.5rem;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+label{
+  text-align: left;
+}
+
+input{
+  height: 3rem;
+  width: 90%;
+  background: var(--colorGray);
+  color:var(--colorGray);
+  border-radius: 0.25rem;
+  border: transparent;
+  margin: var(--margin) auto;
+}
+
+.nth-child2{
+  background: none;
+}
+form span{
+  border-radius: 0.25rem;
+  height: 3rem;
+  width: 90%;
+  background: var(--colorGray);
+  border: transparent;
+  margin: var(--margin) auto;
+}
+
+button{
+  background: var(--colorBlack);
+  color: #fff;
+  height: 3rem;
+  width: 20rem;
+  margin: var(--margin) auto;
+}
+
+textarea{
+ background: var(--colorGray); 
+ color: var(--colorGray);
+ font-weight: bold;
+ border: transparent;
+ margin: 0.50rem auto;
+ border-radius: 0.25rem;
+}
