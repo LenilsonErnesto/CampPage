@@ -1,4 +1,4 @@
-
+/*Adicionar Header em cada página*/
 window.addEventListener("click", 
 ()=>{
 const header= document.querySelector('header');
@@ -11,3 +11,11 @@ const header= document.querySelector('header');
   </div>`
 });
 
+/*Rederecionamento na página index para Camps*/
+const btn= document.querySelector('btn-index').addEventListener(
+  "click", () =>{
+    const link = "./search/search.html";
+    if(true){
+      window.location.href= link;
+    }
+  });
