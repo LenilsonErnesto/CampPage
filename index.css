@@ -18,7 +18,6 @@
 
 body{
   font-family:Archivo, Sans-Serif ;
-  background: var(--color02);
 }
 
 main{
@@ -28,6 +27,10 @@ main{
 }
 
 /*Código local*/
+
+.container{
+  background: var(--color02);
+}
 
 .article-divImg img{
   width: 100%;
