@@ -27,7 +27,7 @@ const btn= document.querySelector('.dropdown button').addEventListener(
   });
 
 /*Rederecionamento na página index para Camps*/
-const btn= document.querySelector('btn-index').addEventListener(
+const btn= document.querySelector('.btn-index').addEventListener(
   "click", () =>{
     const link = "./search/search.html";
     if(true){
