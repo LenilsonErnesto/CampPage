@@ -72,8 +72,7 @@ const btn= document.querySelector('.section-btn').addEventListener(
    "click",
   function (){
     const link = "./mount page
-/mount.html
-       ";
+/mount.html";
     if(true){
       window.location.href= link;
     }
