@@ -66,11 +66,15 @@ const campingList=[
    
    sectionCreate.innerHTML= camping;
   }
-  
-  function pageChange(){
-    const btn= document.querySelector('.section-btn');
-    const link = "";
+
+
+const btn= document.querySelector('.section-btn').addEventListener(
+   "click",
+  function (){
+    const link = "./mount page
+/mount.html
+       ";
     if(true){
       window.location.href= link;
     }
-  }
+  });
