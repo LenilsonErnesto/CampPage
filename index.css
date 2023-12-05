@@ -37,6 +37,10 @@ main{
   height: 20rem;
   margin-block: 2rem;
 }
+.article-divText p img{
+  display:inline-block;
+  margin:0.50rem;
+}
 
 .article-divText h1, p{
   display: block;
