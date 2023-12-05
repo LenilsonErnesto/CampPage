@@ -6,10 +6,25 @@ const header= document.querySelector('header');
   `<div class="header-svg">
     <img src="./assets/Logo.svg"/>
   </div>
-  <div class="headerMenu-icon">
+  <div class="dropMenu-icon">
     <i class="ph ph-list"></i>
-  </div>`
+  </div>`;
+
+  const menu= document.querySelector('.dropMenu-icon');
+  menu.innerHTML=
+    ` <div class="dropdown">
+    <button>Entrar</button>
+    <button>Registrar</button>
+    <div>`;
 });
+/*Rederecionamento para página de login*/
+const btn= document.querySelector('.dropdown button').addEventListener(
+  "click", () =>{
+    const link = "./login/login.html";
+    if(true){
+      window.location.href= link;
+    }
+  });
 
 /*Rederecionamento na página index para Camps*/
 const btn= document.querySelector('btn-index').addEventListener(
